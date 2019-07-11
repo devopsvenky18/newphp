@@ -1,0 +1,4 @@
+cd /
+cd /gitdata/
+docker  build -t hellow-world /gitdata/
+docker run -d --name=helloworld -p 80:80 -v /gitdata/src/:/var/www/html hello-world
