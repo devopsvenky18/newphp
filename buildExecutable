@@ -1,4 +1,4 @@
 cd /
-cd /docker/workspace/docker4
-docker  build -t hellow-world /docker/workspace/docker4
+cd /docker/workspace/docker5
+docker  build -t hellow-world /docker/workspace/docker5
 docker run -d --name=helloworld -p 80:80 -v /docker/workspace/docker4/src/:/var/www/html hello-world
